@@ -10,6 +10,15 @@
     --light-theme-background: #F5F4FA;
     --hover-btn-background: #188CE8;
 }
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 body {
     font-family: var(--main-font-family);
     color: var(--main-color)
@@ -26,6 +35,9 @@ ul, ol {
      padding-left: 0;   
 
     }
+img {
+    display: block;
+}
 .list {
     list-style: none;
 }
